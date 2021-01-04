@@ -1,0 +1,17 @@
+/*Menu*/
+
+li {
+    color: #252222;
+    font-family: 'Old Standard TT', serif;
+    font-size: 1.3rem;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: aquamarine;
+}
+
+.underline {
+    color: aqua;
+}
