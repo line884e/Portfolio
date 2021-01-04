@@ -25,21 +25,21 @@ ul {
 
 li {
     font-size: 1rem;
-    padding: 0.4rem;
+    padding: 0.3rem;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
 
 }
 
 li a {
-    color: red;
+    color: black;
     display: block;
     padding: 1vw 1vw;
     text-decoration: none;
 }
 
 li a:hover {
-    color: black;
+    color: #F1D7CD;
 }
 
 
@@ -64,9 +64,10 @@ li a:hover {
 /* Overskrift */
 h1 {
     position: absolute;
-    top: 30vh;
-    left: 15vw;
+    top: 35vh;
+    left: 8vw;
     font-size: 140px;
+    font-family: 'Raleway', sans-serif;
 }
 
 /* Billede */
