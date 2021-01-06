@@ -117,4 +117,46 @@ p {
 
 /*Media mobil*/
 
-@media (max-width: 700px) {}
+@media (max-width: 700px) {
+    .headerliste_mobil {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: white;
+        opacity: 60%;
+    }
+
+    #burgermenu {
+        display: inline-block;
+        margin-top: -0.2rem;
+        position: absolute;
+        left: 1rem;
+    }
+
+    ul {
+        display: block;
+    }
+
+    h1 {
+        color: black;
+        position: absolute;
+        top: 35vh;
+        left: 8vw;
+        font-size: 140px;
+        font-family: 'Raleway', sans-serif;
+
+    }
+
+    p {
+        color: black;
+        position: absolute;
+        top: 57vh;
+        left: 32vw;
+        font-size: 45px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .headerliste {
+        display: none;
+    }
+}
