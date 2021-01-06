@@ -112,7 +112,7 @@ p {
     width: 100vw;
     height: 100vh;
     background-size: cover;
-
+    background-position: 90% 10%;
 }
 
 /*Media mobil*/
@@ -140,9 +140,9 @@ p {
     h1 {
         color: black;
         position: absolute;
-        top: 35vh;
-        left: 8vw;
-        font-size: 140px;
+        top: 55vh;
+        left: 24vw;
+        font-size: 60px;
         font-family: 'Raleway', sans-serif;
 
     }
@@ -150,9 +150,9 @@ p {
     p {
         color: black;
         position: absolute;
-        top: 57vh;
-        left: 32vw;
-        font-size: 45px;
+        top: 65vh;
+        left: 50vw;
+        font-size: 25px;
         font-family: 'Raleway', sans-serif;
     }
 
