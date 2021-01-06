@@ -62,74 +62,27 @@ li a:hover {
     bottom: 0.8vw;
 }
 
-/*Burgermenu*/
+/*Menu mobil*/
+.headerliste_mobil {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
 
-#burgermenu {
-    display: inline-block;
-    max-width: 1200px;
-
-    margin: 5px 10px;
 }
 
-#burgermenu img {
-    height: 25px;
+#burgerfane {
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: left;
 }
 
-nav {
-    position: absolute;
-    align-items: center;
-    z-index: 100;
-    background-color: white;
-    opacity: 60%;
+.hidden {
+    display: none;
 }
-
-
-nav li:first-child {
-    padding-top: 20px;
-}
-
-nav li:last-child {
-    padding-bottom: 20px;
-}
-
-/*Mediaquery burgermenu*/
-
-@media (min-width: 1110px) {
-    #burgermenu {
-        display: none;
-    }
-
-    #menu {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    #menu.hidden {
-        transform: translateX(0);
-        opacity: 1;
-    }
-
-    nav {
-        position: static;
-        background-color: #F5E8D7;
-        opacity: 100%;
-        width: 100%;
-    }
-
-    nav li:first-child {
-        padding-top: 0;
-    }
-
-    nav li:last-child {
-        padding-bottom: 0;
-    }
-
-    header a {
-        font-size: 1em;
-        line-height: normal;
-    }
-}
-
 
 
 
@@ -154,6 +107,7 @@ p {
 
 /* Billede */
 .forside {
+    position: fixed;
     background-image: url(images/forside_billede.svg);
     width: 100vw;
     height: 100vh;
@@ -161,7 +115,6 @@ p {
 
 }
 
-/*Media*/
-@media (min-width:650px) {}
+/*Media mobil*/
 
-@media (min-width:1000px) {}
+@media (max-width: 700px) {}
