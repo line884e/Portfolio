@@ -129,15 +129,14 @@ p {
         display: block;
         position: fixed;
         width: 100%;
-        background: white;
-        opacity: 60%;
     }
 
     #burgerknap {
         display: inline-block;
-        margin-top: -0.2rem;
+        font-size: 2rem;
         position: absolute;
         left: 1rem;
+        margin-top: -0.1rem;
     }
 
     ul {
