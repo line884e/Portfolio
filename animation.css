@@ -96,6 +96,10 @@ li a:hover {
     z-index: 2;
     position: relative;
     text-align: left;
+    background-color: white;
+    padding-top: 0.5rem;
+    opacity: 100%;
+    margin-top: 2rem;
 }
 
 .hidden {
@@ -109,15 +113,14 @@ li a:hover {
         display: block;
         position: fixed;
         width: 100%;
-        background: white;
-        opacity: 60%;
     }
 
-    #burgermenu {
+    #burgerknap {
         display: inline-block;
-        margin-top: -0.2rem;
+        font-size: 2rem;
         position: absolute;
         left: 1rem;
+        margin-top: -0.1rem;
     }
 
     ul {
