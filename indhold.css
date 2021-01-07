@@ -6,6 +6,9 @@ img {
 
 * {
     box-sizing: border-box;
+    /* Udkommenteret da det ødelægger mine knapper og text diver
+
+    margin: 0 auto;*/
 }
 
 html {
@@ -34,7 +37,7 @@ ul {
     width: 100%;
     position: fixed;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     z-index: 2;
     left: 0;
@@ -135,7 +138,7 @@ li a:hover {
     h1 {
         color: black;
         position: absolute;
-        top: 4vh;
+        top: 8vh;
         left: 10vw;
         font-size: 30px;
         font-family: 'Raleway', sans-serif;
@@ -155,7 +158,7 @@ li a:hover {
 
     .indhold {
         column-gap: 50px;
-        margin-top: 30vw;
+        margin-top: 40vw;
     }
 
     .text1_container {
@@ -169,13 +172,10 @@ li a:hover {
     .knap_container {
         font-family: 'Montserrat', sans-serif;
         padding: 7px;
-        border-color: black;
-        border-style: solid;
-        border-width: 2px;
         text-align: center;
         padding-top: 17px;
         margin-bottom: 4rem;
-
+        background-color: #F9EFEB;
     }
 
     .indhold a {
@@ -193,7 +193,7 @@ li a:hover {
     h1 {
         color: black;
         position: absolute;
-        top: 7vh;
+        top: 10vh;
         left: 34vw;
         font-size: 40px;
         font-family: 'Raleway', sans-serif;
@@ -232,13 +232,11 @@ li a:hover {
     .knap_container {
         font-family: 'Montserrat', sans-serif;
         padding: 7px;
-        border-color: black;
-        border-style: solid;
-        border-width: 2px;
         text-align: center;
         padding-top: 19px;
         transition: 0.2s ease-out;
         margin-bottom: 2rem;
+        background-color: #F9EFEB;
 
     }
 
