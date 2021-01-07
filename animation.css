@@ -1,0 +1,251 @@
+/*Generelt*/
+
+img {
+    width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    overflow-x: hidden;
+    background-color: #F1D7CD;
+}
+
+main {
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 12vw;
+}
+
+/*Menu*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 2;
+    left: 0;
+    margin-top: 0;
+    background-color: white;
+    opacity: 60%;
+
+}
+
+li {
+    font-size: 1rem;
+    padding: 0.3rem;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+
+}
+
+li a {
+    color: black;
+    display: block;
+    padding: 1vw 1vw;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #F1D7CD;
+}
+
+
+.underline {
+    color: black;
+    position: relative;
+    display: inline-block;
+}
+
+.underline::after {
+    content: '';
+    height: 2px;
+    width: 44%;
+    background: black;
+    position: absolute;
+    left: calc(39% - 10%);
+    bottom: 0.8vw;
+}
+
+/*Menu mobil*/
+.headerliste_mobil {
+    display: none;
+    z-index: 2;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+
+}
+
+#burgerfane {
+    line-height: 1.6;
+    z-index: 2;
+    position: relative;
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
+
+/*Media mobil*/
+
+@media (max-width: 700px) {
+    .headerliste_mobil {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background: white;
+        opacity: 60%;
+    }
+
+    #burgermenu {
+        display: inline-block;
+        margin-top: -0.2rem;
+        position: absolute;
+        left: 1rem;
+    }
+
+    ul {
+        display: block;
+    }
+
+    .headerliste {
+        display: none;
+    }
+
+    h1 {
+        color: black;
+        position: absolute;
+        top: 4vh;
+        left: 10vw;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h2 {
+        color: black;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+        color: black;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    .animation {
+        column-gap: 50px;
+        margin-top: 30vw;
+    }
+
+    .text1_container {
+        margin-top: -1.7rem;
+    }
+
+    .text1_container p {
+        margin-bottom: 4rem;
+    }
+
+    .knap_container {
+        font-family: 'Montserrat', sans-serif;
+        padding: 7px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        padding-top: 17px;
+        margin-bottom: 4rem;
+
+    }
+
+    .animation a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+}
+
+/*Media Web*/
+@media (min-width: 700px) {
+
+    /* Overskrift */
+    h1 {
+        color: black;
+        position: absolute;
+        top: 7vh;
+        left: 34vw;
+        font-size: 40px;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    h2 {
+        color: black;
+        font-size: 20px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    p {
+        color: black;
+        font-size: 15px;
+        font-family: 'Montserrat', sans-serif;
+    }
+
+
+    .animation {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 15vw;
+        margin-top: 12vw;
+        padding: 50px;
+
+    }
+
+    .text1_container {
+        margin-top: -1.7rem;
+    }
+
+    .text1_container p {
+        margin-bottom: 4rem;
+    }
+
+    .knap_container {
+        font-family: 'Montserrat', sans-serif;
+        padding: 7px;
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+        text-align: center;
+        padding-top: 19px;
+        transition: 0.2s ease-out;
+        margin-bottom: 2rem;
+
+    }
+
+    .knap_container:hover {
+        transform: translateY(10px);
+    }
+
+
+    .animation a {
+        text-decoration: none;
+        color: black;
+
+    }
+}
