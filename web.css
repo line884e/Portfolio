@@ -217,7 +217,7 @@ li a:hover {
     .web {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 15vw;
+        grid-column-gap: 10vw;
         margin-top: 12vw;
         padding: 50px;
 
@@ -230,7 +230,7 @@ li a:hover {
     }
 
     .text1_container p {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .knap_container {
