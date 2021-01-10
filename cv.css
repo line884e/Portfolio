@@ -93,7 +93,7 @@ li a:hover {
 }
 
 #burgerfane {
-    line-height: 1.6;
+    line-height: 1.5rem;
     z-index: 2;
     position: relative;
     text-align: left;

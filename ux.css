@@ -153,6 +153,7 @@ li a:hover {
         color: black;
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
     }
 
     .ux {
@@ -165,7 +166,7 @@ li a:hover {
     }
 
     .text1_container p {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .knap_container {
@@ -208,13 +209,14 @@ li a:hover {
         color: black;
         font-size: 15px;
         font-family: 'Montserrat', sans-serif;
+        line-height: 1.5rem;
     }
 
 
     .ux {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-column-gap: 15vw;
+        grid-column-gap: 10vw;
         margin-top: 12vw;
         background-repeat: no-repeat;
         padding: 50px;
@@ -226,7 +228,7 @@ li a:hover {
     }
 
     .text1_container p {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .knap_container {
